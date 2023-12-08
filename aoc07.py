@@ -12,15 +12,11 @@ if __name__ == '__main__':
 
 
     def countDis(str):
-        # Create an empty dictionary to store the frequency of each character
         freq = {}
 
-        # Iterate over each character in the string
         for char in str:
-            # Increment the frequency count for the character in the dictionary
             freq[char] = freq.get(char, 0) + 1
 
-        # Return the number of distinct characters in the string
         return freq
 
 
